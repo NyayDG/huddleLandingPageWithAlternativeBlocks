@@ -1,0 +1,113 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.firstPage {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: rgb(237, 251, 254);
+    padding-bottom: 50px;
+}
+
+.firstPageContainerForFlex {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.firstPageNavButton {
+    padding: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 6px 0.1px;
+}
+
+.firstPageText {
+    margin-left: -75px;
+    width: 85%;
+    padding-top: 50px;
+}
+
+.firstPageImage {
+    width: 110%;
+    padding-left: 150px;
+}
+
+.btn-pink {
+    background-color: rgb(254, 82, 192);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 5px 25px #888888;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* SECOND PAGE */
+.secondPage {
+    display: grid;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secondPageImage {
+    width: 70%;
+}
+
+.secondPageDiv {
+    padding: 50px;
+    box-shadow: 0px 5px 25px #888888;
+}
+
+/* THIRD PAGE */
+
+.thirdPage {
+    background: linear-gradient( white 60%, rgb(0, 37, 46) 40%);
+}
+
+.thirdPageOuterDiv {
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    background-color: white;
+
+}
+
+.thirdPageDiv {
+    padding: 50px;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+}
+
+/* FORTH PAGE */
+
+.forthPagePartTwo {
+    background-color: rgb(0, 37, 46);
+    color: white;
+    padding: 100px;
+}
+
+.forthPagePartTwoFlex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.twitterIcon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item {
+    width: 25%;
+}
+
+.itemAbout {
+    padding-left: 80px;
+}
